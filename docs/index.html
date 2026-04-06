@@ -3,50 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galería de Arte | Venta de Dibujos</title>
+    <title>Kysara | Ilustradora y Diseñadora de Personajes</title>
+    
     <link rel="stylesheet" href="assets/style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
 
+    <nav>
+        <div class="nav-container">
+            <span class="brand">Kysara Art</span>
+            <div class="nav-links">
+                <a href="#about">Sobre Mí</a>
+                <a href="#commissions">Comisiones</a>
+                <a href="#portfolio">Galería</a>
+            </div>
+        </div>
+    </nav>
+
     <header class="hero">
-        <h1>Mi Galería de Arte</h1>
-        <p>Ilustraciones digitales y tradicionales disponibles para la venta.</p>
+        <div class="hero-content">
+            <img src="assets/images/mi-avatar.jpg" alt="Avatar de Kysara" class="profile-avatar">
+            <h1>Kysara 👋</h1>
+            <p class="subtitle">Artista Ilustradora desde Chile 🇨🇱. Especializada en arte Furry, diseño de personajes y Custom Designs.</p>
+            
+            <div class="status-badge available">
+                <span class="status-dot"></span> Disponible para nuevos proyectos
+            </div>
+            
+            <a href="#commissions" class="cta-button">Ver Precios y Ordenar</a>
+        </div>
     </header>
 
-    <main class="gallery-container">
-        <article class="art-card">
-            <img src="https://via.placeholder.com/400x300?text=Tu+Dibujo+Aqui" alt="Nombre del dibujo">
-            <div class="art-info">
-                <h2>Retrato Estelar</h2>
-                <p>Técnica mixta sobre lienzo digital.</p>
-                <span class="price">$25.00 USD</span>
-                <a href="mailto:tu-correo@email.com?subject=Me interesa el Retrato Estelar" class="buy-btn">Comprar</a>
+    <section id="about" class="about-section">
+        <h2>About me</h2>
+        <div class="about-content">
+            <p>Hola, soy Kysara. Me apasiona dar vida a personajes y mundos a través de la ilustración digital. Trabajo tanto en estilos SFW como NSFW, enfocándome en Character Art y Custom designs. ¡Si tienes un personaje en mente, me encantaría dibujarlo!</p>
+            <div class="social-links">
+                <a href="https://vgen.co/Kysara" target="_blank" class="social-icon vgen">Order on VGen</a>
+                <a href="https://www.instagram.com/_kysara_" target="_blank" class="social-icon instagram">Portfolio</a>
             </div>
-        </article>
+        </div>
+    </section>
 
-        <article class="art-card">
-            <img src="https://via.placeholder.com/400x300?text=Tu+Dibujo+Aqui" alt="Nombre del dibujo">
-            <div class="art-info">
-                <h2>Paisaje Cibernético</h2>
-                <p>Arte conceptual en alta resolución.</p>
-                <span class="price">$40.00 USD</span>
-                <a href="#" class="buy-btn">Comprar</a>
-            </div>
-        </article>
+    <section id="commissions" class="commissions-section">
+        <h2>Featured Commissions</h2>
+        <div class="commission-grid">
+            
+            <article class="commission-card highlight">
+                <img src="assets/images/dibujo-fullbody.jpg" alt="Ejemplo de Fullbody Illustration">
+                <div class="card-info">
+                    <h3>Fullbody illustration</h3>
+                    <p class="price-from">From <strong>CLP 68,780</strong></p>
+                    <p class="description">Ilustración completa de 1 personaje, fondo simple/abstracto y prop simple opcional.</p>
+                    <a href="https://vgen.co/Kysara" target="_blank" class="buy-button">Comenzar Orden</a>
+                </div>
+            </article>
 
-        <article class="art-card">
-            <img src="https://via.placeholder.com/400x300?text=Tu+Dibujo+Aqui" alt="Nombre del dibujo">
-            <div class="art-info">
-                <h2>Boceto a Lápiz</h2>
-                <p>Dibujo tradicional escaneado.</p>
-                <span class="price">$15.00 USD</span>
-                <a href="#" class="buy-btn">Comprar</a>
-            </div>
-        </article>
-    </main>
+            <article class="commission-card">
+                <img src="assets/images/dibujo-halfbody.jpg" alt="Ejemplo de Halfbody Commission">
+                <div class="card-info">
+                    <h3>Halfbody illustration</h3>
+                    <p class="price-from">From <strong>CLP 45,000</strong></p>
+                    <p class="description">Desde la cintura hacia arriba. Incluye 1 personaje y fondo plano.</p>
+                    <a href="https://vgen.co/Kysara" target="_blank" class="buy-button-secondary">Ver en VGen</a>
+                </div>
+            </article>
+
+            <article class="commission-card">
+                <img src="assets/images/dibujo-headshot.jpg" alt="Ejemplo de Headshot Commission">
+                <div class="card-info">
+                    <h3>Bust/Headshot</h3>
+                    <p class="price-from">From <strong>CLP 25,000</strong></p>
+                    <p class="description">Retrato enfocado en el rostro y hombros. Ideal para iconos.</p>
+                    <a href="https://vgen.co/Kysara" target="_blank" class="buy-button-secondary">Ver en VGen</a>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio-section">
+        <h2>My Latest Art</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item"><img src="assets/images/dibujo-fullbody.jpg" alt="Obra de arte"></div>
+            <div class="portfolio-item"><img src="assets/images/dibujo-halfbody.jpg" alt="Obra de arte"></div>
+            <div class="portfolio-item"><img src="assets/images/dibujo-headshot.jpg" alt="Obra de arte"></div>
+            <div class="portfolio-item"><img src="assets/images/dibujo-fullbody.jpg" alt="Obra de arte"></div>
+        </div>
+        <div class="portfolio-cta">
+            <a href="https://www.instagram.com/_kysara_" target="_blank" class="secondary-button">Ver galería completa en Instagram</a>
+        </div>
+    </section>
 
     <footer>
-        <p>© 2026 Mi Galería de Arte. Todos los derechos reservados.</p>
+        <p>© 2026 Kysara Art. Todos los derechos reservados.</p>
+        <p>Arte Furry y Diseño de Personajes.</p>
     </footer>
 
 </body>
